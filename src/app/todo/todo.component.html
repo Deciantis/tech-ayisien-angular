@@ -6,4 +6,11 @@
         <fa-icon [icon]="faPlus"></fa-icon>
         Pou'm fe</button>
     </div>
+<ul *ngFor="let todo of todos">
+
+    <app-card [todoCardPassIn]=todo></app-card>
+
+</ul>
+
+
 </div>
